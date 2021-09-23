@@ -1,6 +1,9 @@
 <template>
-  <div class="bg-main text-white text-opacity-90">
+  <div class="bg-main text-white text-opacity-90 h-screen">
     <navbar />
+   
+    
+   
     <router-view/>
   </div>
 </template>
@@ -16,3 +19,5 @@ export default {
   }
 }
 </script>
+
+

@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between text-md font-bold p-2 items-center w-full">
+  <nav class="flex justify-between text-md font-bold p-2 items-center w-full border-b border-black fixed bg-main z-50">
     <div>
       <ul class="flex space-x-8">
         <li>
@@ -18,7 +18,7 @@
           ></i>
 
           <ul
-            class="absolute bg-main p-2 font-normal text-xs rounded-md space-y-1 shadow-lg border border-black overflow-y-auto h-4/6"
+            class="absolute bg-main p-2 font-normal text-xs rounded-md space-y-1 shadow-lg border border-black overflow-y-auto h-auto"
             :class="{ hidden: isOpen != 0 }"
           >
             <span class="text-gray-500 px-2">GENERAL</span>
@@ -390,7 +390,7 @@
 
           <div
             v-show="isOpen == 5"
-            class="absolute bg-main w-56 top-8 right-1 rounded-sm shadow-lg text-text-main overflow-y-auto h-auto max-h-full"
+            class="absolute bg-main w-56 top-8 right-1 rounded-sm shadow-lg text-text-main overflow-y-auto h-auto "
           >
             <div class="p-2 text-text-main " :class="{'p-4':showLang}">
               <div class="delay-100 origin-top duration-300 scale-x-0 " :class="{'transform':showLang}">
