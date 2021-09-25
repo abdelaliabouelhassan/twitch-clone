@@ -638,28 +638,3 @@ export default {
 
 
 
-<style scoped>
-/* width */
-::-webkit-scrollbar {
-  width: 15px;
-  height: 16px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  border-radius: 100vh;
-  background: #18181b;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #2a2a2b;
-  border-radius: 100vh;
-  border: 3px solid #18181b;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #18181b;
-}
-</style>
