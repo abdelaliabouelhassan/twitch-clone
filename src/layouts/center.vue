@@ -17,7 +17,7 @@
             alt
           />
           <div
-            class="-bottom-1 left-3 uppercase absolute rounded bg-red-600 bg-opacity-90 z-50 text-white text-center text-xs border-2 border-black"
+            class="-bottom-1 left-3 uppercase absolute rounded bg-red-600 bg-opacity-90 z-30 text-white text-center text-xs border-2 border-black"
           >
             <span class="px-2">LIVE</span>
           </div>

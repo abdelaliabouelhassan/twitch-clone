@@ -106,6 +106,7 @@
                 focus:outline-none
                 focus:ring-purple-500 focus:ring-2
                 placeholder-gray-400
+                focus:bg-black
               " name="Text1" cols="40" rows="1"></textarea>
             <button
               class="
@@ -116,6 +117,7 @@
                 left-2
                 top-4
                 text-gray-400 text-xs
+                
               "
             >
               <i class="bi bi-star"></i>
