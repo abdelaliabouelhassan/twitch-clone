@@ -51,7 +51,7 @@
         </div>
       </div>  
       <div class=" w-full  pl-1  pt-3  absolute top-36" style=" height:73%">
-        <div class="px-2 text-sm overflow-y-auto h-full  ">
+        <div class="px-2 text-sm overflow-y-auto h-auto max-h-full  ">
           <span class="text-gray-400">Welcome to the chat room!</span>
           <div class="py-1" v-for="(item, index, key) in messages" :key="key">
             <div
