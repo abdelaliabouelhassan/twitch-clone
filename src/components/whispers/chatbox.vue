@@ -71,7 +71,7 @@
               >
                 <i class="bi bi-emoji-smile"></i>
               </button>
-          </div>
+        </div>
     </div> 
 
  
